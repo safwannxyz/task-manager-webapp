@@ -4,7 +4,7 @@ import TaskList from "./components/Tasklist";
 import TaskFilter from "./components/Taskfilter";
 
 function App() {
-  // Load tasks from localStorage
+  // Load from localStorage
   const [tasks, setTasks] = useState(() => {
     const saved = localStorage.getItem("tasks");
     return saved ? JSON.parse(saved) : [];
@@ -13,7 +13,7 @@ function App() {
   const [filter, setFilter] = useState("All");
   const [editingTask, setEditingTask] = useState(null);
 
-  // Save to localStorage whenever tasks change
+  // Save to localStorage 
   useEffect(() => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
   }, [tasks]);
@@ -44,7 +44,7 @@ function App() {
 
   const cancelEdit = () => setEditingTask(null);
 
-  // Filter logic
+  // Filter 
   const filteredTasks = filter === "All"
     ? tasks
     : tasks.filter(t => t.status === filter);
