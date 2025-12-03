@@ -1,4 +1,4 @@
-ask Manager Web App
+Task Manager Web App
 A simple, modern task manager built with React and Vite. This web application allows users to create, view, edit, and delete tasks efficiently, with a clean and responsive interface.
 Features
 
