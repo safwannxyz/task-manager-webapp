@@ -1,16 +1,18 @@
-# React + Vite
+ask Manager Web App
+A simple, modern task manager built with React and Vite. This web application allows users to create, view, edit, and delete tasks efficiently, with a clean and responsive interface.
+Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Add Tasks: Quickly add new tasks with title and description.
+View Tasks: Display all tasks in a list with status indicators (e.g., pending/completed).
+Edit Tasks: Update task details on the fly.
+Delete Tasks: Remove unwanted tasks.
+Mark as Complete: Toggle task completion status.
+Local Storage: Persists tasks in the browser for offline use.
 
-Currently, two official plugins are available:
+Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend: React (with hooks and functional components)
+Build Tool: Vite (for fast development and hot module replacement)
+Styling: CSS Modules or Tailwind CSS (customizable)
+State Management: React Context or useState (simple implementation)
+Storage: Browser LocalStorage
